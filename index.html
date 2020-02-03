@@ -15,22 +15,31 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
-
 </head>
 <body>
 
 <div id="create-page-wrapper">
 
-    <div class="image">
-        <img id="profile-image" src="./assets/images/profile-image.JPG">
-        <h1>Name here</h1>
-    </div>
+
+    <!-- ========================= Navbar ================================================== -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper black">
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large menuIcon"><i class="fas fa-bars"></i></a>
+            <ul class="categories container">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
 
     <!-- ========================= Sidenav ================================================== -->
-
     <ul id="slide-out" class="side-nav">
-        <a href="/all" class="brand-logo"><i class="fab fa-fort-awesome-alt" style="font-size: 155px"></i></a>
+        <a href="/all" class="brand-logo">
+            <img id="profile-image" src="./assets/images/profile-image.JPG">
+        </a>
         <h3 class="app-name">Medieval Avatars</h3>
         
         <li><a href="/create" class="w3-bar-item w3-button" id="nav-create-btn" style="text-align: center;">Create</a></li>
@@ -38,28 +47,27 @@
         <li><a href="/all" class="w3-bar-item w3-button" id="nav-view-all-btn" style="text-align: center;">All Avatars</a></li>
     </ul>
 
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
     <!-- ========================= About Me ================================================== -->
-
-    <div class="container">
-        <form class="create-form">
-            <ul class="collapsible popout">
-                <li>
-                    <div class="collapsible-header"><i class="fas fa-user-edit"></i>Name<span id="nameBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
-                    <div class="collapsible-body"><span><input type="text" id="newName"name="name"></span></div>
-                </li>
-                <li>
-                    <div class="collapsible-header"><i class="fas fa-user-plus"></i>Age<span id="ageBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
-                    <div class="collapsible-body"><span><input type="text" id="newAge" name="age"></span></div>
-                </li>
-            </ul>
-        </form>
-    </div>
+    <header>
+        <div class="container">
+            <form class="create-form">
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="fas fa-user-edit"></i>Name<span id="nameBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
+                        <div class="collapsible-body"><span><input type="text" id="newName"name="name"></span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="fas fa-user-plus"></i>Age<span id="ageBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
+                        <div class="collapsible-body"><span><input type="text" id="newAge" name="age"></span></div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </header>
 
 
     <!-- ========================= Carousel ================================================== -->
-
     <div class="col l8 offset-l2">
         <div class="carousel-container">
             <div id="carouselDiv" class="carousel">
@@ -81,7 +89,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
     <script src="./assets/js/script.js"></script>
 
 </body>

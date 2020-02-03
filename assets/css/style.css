@@ -5,6 +5,10 @@ body {
     /* background-color: pink; */
 }
 
+header {
+    text-align: center;
+}
+
 .container {
     /* background-color: blue; */
 }
@@ -30,14 +34,12 @@ body {
     }
 
 
-.image {
-    text-align: center;
-}
     #profile-image {
+        text-align: center;
         border-radius: 50%;
-        border: 10px solid black;
-        height: 420px;
-        width: 420px;
+        border: 5px solid black;
+        height: 150px;
+        width: 150px;
     }
 
 
@@ -63,3 +65,9 @@ body {
     font-weight: bold;
     font-size: 25px;
 }
+
+.nav-extended {
+    background-color: black;
+    color: white;
+}
+
