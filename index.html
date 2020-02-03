@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Updated Portfolio 2</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+<body>
+
+<div id="create-page-wrapper">
+
+    <div class="image">
+        <img id="profile-image" src="./assets/images/profile-image.JPG">
+        <h1>Name here</h1>
+    </div>
+
+
+    <!-- ========================= Sidenav ================================================== -->
+
+    <ul id="slide-out" class="side-nav">
+        <a href="/all" class="brand-logo"><i class="fab fa-fort-awesome-alt" style="font-size: 155px"></i></a>
+        <h3 class="app-name">Medieval Avatars</h3>
+        
+        <li><a href="/create" class="w3-bar-item w3-button" id="nav-create-btn" style="text-align: center;">Create</a></li>
+        <li><a href="/all/" class="w3-bar-item w3-button viewOwnAvatars" id="nav-view-btn" style="text-align: center;">My Avatars</a></li>
+        <li><a href="/all" class="w3-bar-item w3-button" id="nav-view-all-btn" style="text-align: center;">All Avatars</a></li>
+    </ul>
+
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    <!-- ========================= About Me ================================================== -->
+
+    <div class="container">
+        <form class="create-form">
+            <ul class="collapsible popout">
+                <li>
+                    <div class="collapsible-header"><i class="fas fa-user-edit"></i>Name<span id="nameBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
+                    <div class="collapsible-body"><span><input type="text" id="newName"name="name"></span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="fas fa-user-plus"></i>Age<span id="ageBadge" class="badge hide"><i class="material-icons">check_circle_outline</i></span></div>
+                    <div class="collapsible-body"><span><input type="text" id="newAge" name="age"></span></div>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+
+    <!-- ========================= Carousel ================================================== -->
+
+    <div class="col l8 offset-l2">
+        <div class="carousel-container">
+            <div id="carouselDiv" class="carousel">
+
+                <a class="carousel-item" href="#five!"><img src="./assets/images/medieval-avatars.png"></a>
+                <a class="carousel-item" href="#six!"><img src="./assets/images/nomster.png"></a>
+                <a class="carousel-item" href="#seven!"><img src="./assets/images/note-taker.png"></a>
+                <a class="carousel-item" href="#eight!"><img src="./assets/images/password-generator.png"></a>
+
+                <a class="carousel-item" href="#one!"><img src="./assets/images/code-quiz.png"></a>
+                <a class="carousel-item" href="#two!"><img src="./assets/images/crew-builder.gif"></a>
+                <a class="carousel-item" href="#three!"><img src="./assets/images/day-planner.png"></a>
+                <a class="carousel-item" href="#four!"><img src="./assets/images/employee-management.gif"></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

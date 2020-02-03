@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+}
+
+.container {
+    /* background-color: blue; */
+}
+
+
+.carousel .carousel-item {
+    visibility: visible;
+    height: 450px;
+    width: 450px;;
+    text-align: center;
+    /* border: 5px solid black; */
+
+    transition: ease-in-out 0s;
+}
+
+    #carouselDiv{
+        margin-top: -50px;
+        height: 550px;
+    }
+    .imgTitle {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+    }
+
+.image {
+    text-align: center;
+}
+    #profile-image {
+        border-radius: 50%;
+        border: 10px solid black;
+        height: 420px;
+        width: 420px;
+    }
+
+#create-page-wrapper .container {
+    text-align: center;
+    height: 100%;
+}
+
+.create-form {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+    .collapsible-header {
+        height: 55px;
+        font-size: 22px;
+        text-align: left;
+    }
+
+
+#create-page-wrapper .nav-extended {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
