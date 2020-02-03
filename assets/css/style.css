@@ -16,7 +16,6 @@ body {
     width: 450px;;
     text-align: center;
     /* border: 5px solid black; */
-
     transition: ease-in-out 0s;
 }
 
@@ -30,6 +29,7 @@ body {
         text-align: center;
     }
 
+
 .image {
     text-align: center;
 }
@@ -40,10 +40,12 @@ body {
         width: 420px;
     }
 
+
 #create-page-wrapper .container {
     text-align: center;
     height: 100%;
 }
+
 
 .create-form {
     margin-left: 18%;
