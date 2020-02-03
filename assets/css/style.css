@@ -9,11 +9,6 @@ header {
     text-align: center;
 }
 
-.container {
-    /* background-color: blue; */
-}
-
-
 .carousel .carousel-item {
     visibility: visible;
     height: 450px;
@@ -22,7 +17,6 @@ header {
     /* border: 5px solid black; */
     transition: ease-in-out 0s;
 }
-
     #carouselDiv{
         margin-top: -50px;
         height: 550px;
@@ -34,40 +28,63 @@ header {
     }
 
 
+.container {
+    text-align: center;
+    height: 100%;
+}
+    .create-form {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+        .collapsible-header {
+            height: 55px;
+            font-size: 22px;
+            text-align: left;
+        }
+
+
+.side-nav {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+    width: 242px;
+}
+    .app-name {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
     #profile-image {
         text-align: center;
         border-radius: 50%;
         border: 5px solid black;
-        height: 150px;
-        width: 150px;
+        height: 175px;
+        width: 175px;
+        margin-top: 42px;
     }
-
-
-#create-page-wrapper .container {
-    text-align: center;
-    height: 100%;
-}
-
-
-.create-form {
-    margin-left: 18%;
-    margin-right: 18%;
-}
-    .collapsible-header {
-        height: 55px;
-        font-size: 22px;
-        text-align: left;
+    #nav-git-btn {
+        font-size: 20px;
     }
-
-
-#create-page-wrapper .nav-extended {
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.nav-extended {
-    background-color: black;
-    color: white;
-}
-
+        #git {
+            margin-right: -20px;
+            font-size: 30px;
+        }
+    #nav-linked-btn {
+        font-size: 20px;
+    }
+        #linked {
+            margin-right: -10px;
+            font-size: 30px;
+        }
+    #nav-medium-btn {
+        font-size: 20px;
+    }
+        #medium {
+            margin-right: -20px;
+            font-size: 30px;
+        }
