@@ -1,12 +1,38 @@
+@font-face {
+    font-family: Enchanted Land;
+    src: url("../fonts/Enchanted Land.otf");
+  }
+
+@page {margin: 0;}
+ *,
+ *::after,
+ *::before {
+ box-sizing: border-box;
+ /* font-family: OpenDyslexic; */
+ /* font-family: Verdana, sans-serif; */
+ }
+
 
 body {
     margin: 0;
     padding: 0;
     /* background-color: pink; */
+    background-image: url("../images/background-4.jpg");
+    /* position: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     text-align: center;
+}
+
+#app-name {
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    font-family: Sigmar One;
 }
 
 .carousel .carousel-item {
@@ -42,6 +68,11 @@ header {
             height: 55px;
             font-size: 22px;
             text-align: left;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .collapsible-body {
+            background-color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
 
@@ -51,12 +82,11 @@ header {
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-
     width: 242px;
+    font-family: Sigmar One;
 }
-    .app-name {
-        margin-top: 0;
-        margin-bottom: 30px;
+    .app-links {
+        text-decoration: underline;
     }
 
     #profile-image {
@@ -66,9 +96,11 @@ header {
         height: 175px;
         width: 175px;
         margin-top: 42px;
+        margin-bottom: 42px;
     }
     #nav-git-btn {
         font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
         #git {
             margin-right: -20px;
@@ -76,6 +108,7 @@ header {
         }
     #nav-linked-btn {
         font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
         #linked {
             margin-right: -10px;
@@ -83,8 +116,208 @@ header {
         }
     #nav-medium-btn {
         font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
         #medium {
             margin-right: -20px;
             font-size: 30px;
         }
+
+.carousel-container {
+    text-align: center;
+    font-family: Sigmar One;
+}
+    #my-projects {
+        font-size: 42px;
+        color: white;
+        -webkit-text-stroke: 2px black;
+        margin: 0;
+        padding: 0;
+    }
+
+/* ========================= Button Effects ================================================== */
+.item {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 0;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#medieval-avatars {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    font-size: 42px;
+    padding: 0;
+    box-shadow: 0px 0px 25px 0px black;
+    word-spacing: 10px;
+}
+    #medieval-avatars:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+#crew-builder {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px black;
+}
+    #crew-builder:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+
+#employee-management {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px black;
+}
+    #employee-management:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+
+#medieval-avatars {
+    background-color: black;
+    border: solid black;
+    color: white;
+    font-family: Enchanted Land;
+    box-shadow: 0px 0px 25px 0px #7467ad;
+}
+    #nomster:hover {
+        color: rgb(255, 0, 42);
+        -webkit-text-stroke: 1px rgb(142, 0, 0);
+        padding: 7px;
+        border: solid rgb(7, 0, 55);
+        border-width: 5px 5px 5px 5px;
+        box-shadow: 0px 0px 25px 0px rgb(142, 0, 0);
+    }
+
+
+#nomster {
+    background-color: #7467ad;
+    border: solid #7467ad;
+    color: #77dfff;
+    -webkit-text-stroke: 1px rgb(7, 0, 55);
+    font-family: 'Nosifer', cursive;
+    box-shadow: 0px 0px 25px 0px #7467ad;
+}
+    #nomster:hover {
+        color: rgb(255, 0, 42);
+        -webkit-text-stroke: 1px rgb(142, 0, 0);
+        padding: 7px;
+        border: solid rgb(7, 0, 55);
+        border-width: 5px 5px 5px 5px;
+        box-shadow: 0px 0px 25px 0px rgb(142, 0, 0);
+    }
+
+#note-taker {
+    background-color: #51aee1;
+    border: 2px solid #51aee1;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px white;
+}
+    #note-taker:hover {
+        background-color: white;
+        border: 2px solid #51aee1;
+        border-width: 5px 5px 5px 5px;
+        color: #51aee1;
+        box-shadow: 0px 0px 25px 0px #51aee1;
+    }
+
+
+
+
+#day-planner {
+    background-color: rgb(7, 0, 55);
+    border: solid rgb(7, 0, 55);
+    color: #8bc6f2;
+    box-shadow: 0px 0px 25px 0px rgb(7, 0, 55);
+}
+    #day-planner:hover {
+        background-color: #3a6585;
+        color: white;
+        border: solid #3a6585;
+        box-shadow: 0px 0px 25px 0px #3a6585;
+    }
+
+#password-generator {
+    background-color: #3b3829;
+    border: solid #3b3829;
+    box-shadow: 0px 0px 25px 0px #3b3829;
+}
+    #password-generator:hover {
+        background-color: #f2e8cd;
+        color: #3b3829;
+        border: solid #007bff;
+        border-width: 5px 5px 5px 5px;
+        padding: 7px;
+        box-shadow: 0px 0px 25px 0px #007bff;
+    }
+
+#code-quiz {
+    background-color: red;
+    border: solid red;
+    color: white;
+    box-shadow: 0px 0px 25px 0px red;
+}
+    #code-quiz:hover {
+        background-color: green;
+        border: solid green;
+        box-shadow: 0px 0px 25px 0px green;
+    }
+
+
+
+
+#nav-git-btn {
+    color: black;
+}
+#git {
+    color: #e42350;
+}
+    #nav-git-btn:hover {
+        color: #e42350;
+    }
+#nav-linked-btn {
+    color: black;
+}
+#linked {
+    color: #0077b5;
+}
+    #nav-linked-btn:hover {
+        color: #0077b5;
+    }
+#nav-medium-btn {
+    color: black;
+}
+#medium {
+    color: #8c25b5;
+}
+    #nav-medium-btn:hover {
+        color: #8c25b5;
+    }
