@@ -28,8 +28,8 @@ I will say that it was refreshing to witness the difference just between this po
 
 One thing i did do quite differently with this app was focusing on a Mobile friendly display as i have recently started applying to jobs and quickly found out, from an outside source, that people looking to hire will occasionally view portfolios and resumes on their phone. Definitely going to start applying this mentality to all future projects. If not just for job hunting then also for overall sharing and practice.
 
-![mobile](/assets/images/mobile-1.png width="200" height="400")
-![mobile](/assets/images/mobile-2.png width="200" height="400")
+![mobile](/assets/images/mobile-1.png width="200" | height="400")
+![mobile](/assets/images/mobile-2.png width="200" | height="400")
 
 
 
