@@ -16,6 +16,8 @@ Starting with my leading feature (the Carousel) to display my projects, i added 
 These images above are the same scale and size by the way. Thats the carousel size difference.
 This and the button hover feature (changing color to match that of the app its attached to) are the only features i kept from the past portfolio.
 
+![image](/assets/images/carousel-css.png)
+
 Searching through the carousel, you'll definitely notice, with my most recent project (Medieval Avatars), that there are a lot of shared appearances and features such as the navbar, sidenav and carousel. These are all concepts I greatly enjoyed working on with that project and thought id add them here. That and they look really good. My only encountered issue here was content. The Medieval Avatars app had dramatically more content and information than my portfolio so it made sense to have these numerous features.
 
 ![image](/assets/images/portfolio.png)
