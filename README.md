@@ -21,11 +21,18 @@ Searching through the carousel, you'll definitely notice, with my most recent pr
 ![image](/assets/images/portfolio.png)
 ![image](/assets/images/medieval.png)
 
-
-
 As boring as this is to admit, i actually encountered almost zero complication from this project. I thought to add some interesting new content to challenge myself, even went so far as to work on these features within another doc just incase i found a use for them but, sadly, couldn't find enough content for my portfolio to justify using them. I'll definitely apply them next time though.
 
 I will say that it was refreshing to witness the difference just between this portfolio and my last, not just in terms of features but in terms of simplicity and ease.
+
+
+One thing i did do quite differently with this app was focusing on a Mobile friendly display as i have recently started applying to jobs and quickly found out, from an outside source, that people looking to hire will occasionally view portfolios and resumes on their phone. Definitely going to start applying this mentality to all future projects. If not just for job hunting then also for overall sharing and practice.
+
+![mobile](/assets/images/mobile-1.png)
+![mobile](/assets/images/mobile-2.png)
+
+
+
 
 ## Built With
 ​
