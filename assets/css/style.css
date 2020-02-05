@@ -59,8 +59,8 @@ header {
     height: 100%;
 }
     .create-form {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 70px;
+        margin-bottom: 30px;
         margin-left: 18%;
         margin-right: 18%;
     }
@@ -74,7 +74,12 @@ header {
             background-color: white;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
+            opacity: 0.8;
         }
+        #listed-school {
+            text-align: left;
+        }
+
 
 .side-nav {
     background-color: white;
