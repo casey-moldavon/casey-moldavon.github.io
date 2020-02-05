@@ -128,6 +128,15 @@ header {
             font-size: 30px;
         }
 
+    #nav-dropbox-btn {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+        #dropbox {
+            margin-right: -20px;
+            font-size: 30px;
+        }
+
 .carousel-container {
     text-align: center;
     font-family: Sigmar One;
@@ -308,6 +317,7 @@ header {
     #nav-git-btn:hover {
         color: #e42350;
     }
+
 #nav-linked-btn {
     color: black;
 }
@@ -317,6 +327,7 @@ header {
     #nav-linked-btn:hover {
         color: #0077b5;
     }
+    
 #nav-medium-btn {
     color: black;
 }
@@ -325,4 +336,14 @@ header {
 }
     #nav-medium-btn:hover {
         color: #8c25b5;
+    }
+
+#nav-dropbox-btn {
+    color: black;
+}
+#dropbox {
+    color: #037b99;
+}
+    #nav-dropbox-btn:hover {
+        color: #037b99;
     }
