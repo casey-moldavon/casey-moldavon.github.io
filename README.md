@@ -1,4 +1,4 @@
-# updated-portfolio-2
+# Current Portfolio
 
 This is my 4th Portfolio iteration, updated with my most recent projects and some additonal related features. Despite looking very similar to my previous portfolio and my most recent project (Medieval avatars), i actually formed this portfolio from scratch and without copying over any code (with exception to needed code for Materialize features).
 ​
