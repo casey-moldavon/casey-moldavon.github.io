@@ -3,6 +3,11 @@
     src: url("../fonts/Enchanted Land.otf");
   }
 
+@font-face {
+    font-family: smbfont;
+    src: url("../fonts/smbfont 2.ttf");
+  }
+
 @page {margin: 0;}
  *,
  *::after,
@@ -169,6 +174,7 @@ header {
     border: 2px solid black;
     border-width: 5px 5px 5px 5px;
     color: white;
+    font-family: Enchanted Land;
     font-size: 42px;
     padding: 0;
     box-shadow: 0px 0px 25px 0px black;
@@ -214,20 +220,14 @@ header {
     }
 
 
-#medieval-avatars {
-    background-color: black;
-    border: solid black;
+#code-quiz {
+    background-color: red;
     color: white;
-    font-family: Enchanted Land;
-    box-shadow: 0px 0px 25px 0px #7467ad;
+    box-shadow: 0px 0px 25px 0px red;
 }
-    #nomster:hover {
-        color: rgb(255, 0, 42);
-        -webkit-text-stroke: 1px rgb(142, 0, 0);
-        padding: 7px;
-        border: solid rgb(7, 0, 55);
-        border-width: 5px 5px 5px 5px;
-        box-shadow: 0px 0px 25px 0px rgb(142, 0, 0);
+    #code-quiz:hover {
+        background-color: green;
+        box-shadow: 0px 0px 25px 0px green;
     }
 
 
@@ -264,8 +264,6 @@ header {
     }
 
 
-
-
 #day-planner {
     background-color: rgb(7, 0, 55);
     border: solid rgb(7, 0, 55);
@@ -293,20 +291,53 @@ header {
         box-shadow: 0px 0px 25px 0px #007bff;
     }
 
-#code-quiz {
-    background-color: red;
-    border: solid red;
-    color: white;
+#clicky-game {
+    background-color: white;
+    border: 5px solid black;
+    font-family: smbfont;
+    font-size: 42px;
+    letter-spacing: 3px;
+    color: black;
     box-shadow: 0px 0px 25px 0px red;
+
+    padding: 0;
 }
-    #code-quiz:hover {
-        background-color: green;
-        border: solid green;
-        box-shadow: 0px 0px 25px 0px green;
+    #clicky-game:hover {
+        /* background-color: white; */
+        background-image: url("../images/fire-2.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 5px solid red;
+        color: white;
+        box-shadow: 0px 0px 25px 0px orange;
+    }
+    #smash-ball {
+        height: 40px;
+        width: 40px;
+    }
+
+#react-portfolio {
+    background-color: #07093a;
+    border: 5px solid #07093a;
+    color: white;
+    box-shadow: 0px 0px 25px 0px white;
+}
+    #react-portfolio:hover {
+        background-color: #07093a;
+        border: 5px solid #e42250;
+        box-shadow: 0px 0px 25px 0px #e42250;
     }
 
 
 
+
+
+
+
+
+
+
+    projects/
 
 #nav-git-btn {
     color: black;
