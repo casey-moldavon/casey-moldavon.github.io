@@ -44,7 +44,7 @@ One thing i did do quite differently with this app was focusing on a Mobile frie
 ​
 ## Deployed Link
 ​
-* [See Live Site](https://casey-moldavon.github.io/updated-portfolio-2/)
+* [See Live Site](https://casey-moldavon.github.io/current-portfolio/)
 ​
 ​
 ## Authors
