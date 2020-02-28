@@ -1,12 +1,22 @@
 @font-face {
     font-family: Enchanted Land;
     src: url("../fonts/Enchanted Land.otf");
-  }
+}
 
 @font-face {
     font-family: smbfont;
     src: url("../fonts/smbfont 2.ttf");
-  }
+}
+
+@font-face {
+    font-family: BungaMelatiPutih;
+    src: url('../fonts/BungaMelatiPutih-eLWm.ttf');
+}
+
+@font-face {
+    font-family: TheLeavesOfTheForestRegular;
+    src: url('../fonts/TheLeavesOfTheForestRegular-X0Gd.ttf');
+}
 
 @page {margin: 0;}
  *,
@@ -386,3 +396,46 @@ header {
     #nav-dropbox-btn:hover {
         color: #037b99;
     }
+
+
+
+
+    /* Projects added later */
+    #sapling-logo {
+        color: lawngreen;
+        font-size: 50px;
+        border: 2.5px solid green;
+        border-radius: 50%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+        #sapling-logo:hover, #sapling:hover #sapling-logo {
+            box-shadow: 0px 0px 25px 0px limegreen;
+        }
+
+        #sapling {
+            color: white;
+            border: 5px solid white;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: BungaMelatiPutih;
+            letter-spacing: 3px;
+            padding: 0;
+        }
+
+            #sapling:hover {
+                box-shadow: 0px 0px 25px 0px #abcd32;
+                border: 5px solid #abcd32;
+            }
+
+        #text-s {
+            color: green;
+            font-weight: bolder;
+            font-size: 50px;
+            font-family: TheLeavesOfTheForestRegular;
+            -webkit-text-stroke: 1px white;
+
+            margin-right: -20px;
+            padding: 0;
+        }
