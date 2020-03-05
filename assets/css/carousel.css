@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Enchanted Land;
+    src: url("../fonts/Enchanted Land.otf");
+}
+
+@font-face {
+    font-family: smbfont;
+    src: url("../fonts/smbfont 2.ttf");
+}
+
+@font-face {
+    font-family: BungaMelatiPutih;
+    src: url('../fonts/BungaMelatiPutih-eLWm.ttf');
+}
+
+@font-face {
+    font-family: TheLeavesOfTheForestRegular;
+    src: url('../fonts/TheLeavesOfTheForestRegular-X0Gd.ttf');
+}
+
+@page {margin: 0;}
+ *,
+ *::after,
+ *::before {
+ box-sizing: border-box;
+ /* font-family: OpenDyslexic; */
+ /* font-family: Verdana, sans-serif; */
+ }
+
+
+ .carousel-container {
+    text-align: center;
+    font-family: Sigmar One;
+}
+    #my-projects {
+        font-size: 42px;
+        color: white;
+        -webkit-text-stroke: 2px black;
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* ========================= Button Effects ================================================== */
+.item {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 0;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#medieval-avatars {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    font-family: Enchanted Land;
+    font-size: 42px;
+    padding: 0;
+    box-shadow: 0px 0px 25px 0px black;
+    word-spacing: 10px;
+}
+    #medieval-avatars:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+#crew-builder {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px black;
+}
+    #crew-builder:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+
+#employee-management {
+    background-color: black;
+    border: 2px solid black;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px black;
+}
+    #employee-management:hover {
+        background-color: white;
+        border: 2px solid black;
+        border-width: 5px 5px 5px 5px;
+        color: black;
+        box-shadow: 0px 0px 25px 0px white;
+    }
+
+
+#code-quiz {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 25px 0px red;
+}
+    #code-quiz:hover {
+        background-color: green;
+        box-shadow: 0px 0px 25px 0px green;
+    }
+
+
+#nomster {
+    background-color: #7467ad;
+    border: solid #7467ad;
+    color: #77dfff;
+    -webkit-text-stroke: 1px rgb(7, 0, 55);
+    font-family: 'Nosifer', cursive;
+    box-shadow: 0px 0px 25px 0px #7467ad;
+}
+    #nomster:hover {
+        color: rgb(255, 0, 42);
+        -webkit-text-stroke: 1px rgb(142, 0, 0);
+        padding: 7px;
+        border: solid rgb(7, 0, 55);
+        border-width: 5px 5px 5px 5px;
+        box-shadow: 0px 0px 25px 0px rgb(142, 0, 0);
+    }
+
+#note-taker {
+    background-color: #51aee1;
+    border: 2px solid #51aee1;
+    border-width: 5px 5px 5px 5px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px white;
+}
+    #note-taker:hover {
+        background-color: white;
+        border: 2px solid #51aee1;
+        border-width: 5px 5px 5px 5px;
+        color: #51aee1;
+        box-shadow: 0px 0px 25px 0px #51aee1;
+    }
+
+
+#day-planner {
+    background-color: rgb(7, 0, 55);
+    border: solid rgb(7, 0, 55);
+    color: #8bc6f2;
+    box-shadow: 0px 0px 25px 0px rgb(7, 0, 55);
+}
+    #day-planner:hover {
+        background-color: #3a6585;
+        color: white;
+        border: solid #3a6585;
+        box-shadow: 0px 0px 25px 0px #3a6585;
+    }
+
+#password-generator {
+    background-color: #3b3829;
+    border: solid #3b3829;
+    box-shadow: 0px 0px 25px 0px #3b3829;
+}
+    #password-generator:hover {
+        background-color: #f2e8cd;
+        color: #3b3829;
+        border: solid #007bff;
+        border-width: 5px 5px 5px 5px;
+        padding: 7px;
+        box-shadow: 0px 0px 25px 0px #007bff;
+    }
+
+#clicky-game {
+    background-color: white;
+    border: 5px solid black;
+    font-family: smbfont;
+    font-size: 42px;
+    letter-spacing: 3px;
+    color: black;
+    box-shadow: 0px 0px 25px 0px red;
+
+    padding: 0;
+}
+    #clicky-game:hover {
+        /* background-color: white; */
+        background-image: url("../images/backgrounds/fire-2.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 5px solid red;
+        color: white;
+        box-shadow: 0px 0px 25px 0px orange;
+    }
+    #smash-ball {
+        height: 40px;
+        width: 40px;
+    }
+
+#react-portfolio {
+    background-color: #07093a;
+    border: 5px solid #07093a;
+    color: white;
+    box-shadow: 0px 0px 25px 0px white;
+}
+    #react-portfolio:hover {
+        background-color: #07093a;
+        border: 5px solid #e42250;
+        box-shadow: 0px 0px 25px 0px #e42250;
+    }
+
+#workout-tracker {
+    background-color: #5793fd;
+    border: 5px solid #5793fd;
+    color: white;
+}
+    #workout-tracker:hover {
+        background-color: #21ba45;
+        border: 5px solid white;
+        box-shadow: 0px 0px 25px 0px #5793fd;
+    }
+
+
+
+    /* Projects added later */
+    #sapling-logo {
+        color: lawngreen;
+        font-size: 50px;
+        border: 2.5px solid green;
+        border-radius: 50%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+        #sapling-logo:hover, #sapling:hover #sapling-logo {
+            box-shadow: 0px 0px 25px 0px limegreen;
+        }
+
+        #sapling {
+            color: white;
+            border: 5px solid white;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: BungaMelatiPutih;
+            letter-spacing: 3px;
+            padding: 0;
+        }
+
+            #sapling:hover {
+                box-shadow: 0px 0px 25px 0px #abcd32;
+                border: 5px solid #abcd32;
+            }
+
+        #text-s {
+            color: green;
+            font-weight: bolder;
+            font-size: 50px;
+            font-family: TheLeavesOfTheForestRegular;
+            -webkit-text-stroke: 1px white;
+
+            margin-right: -20px;
+            padding: 0;
+        }
