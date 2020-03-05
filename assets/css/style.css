@@ -62,10 +62,11 @@ header {
     }
 
 #app-name {
-    font-size: 35px;
+    /* font-size: 35px; */
     padding: 0;
     margin: 0;
     font-family: Sigmar One;
+    font-size: 4vw;
 }
 
 .carousel .carousel-item {
