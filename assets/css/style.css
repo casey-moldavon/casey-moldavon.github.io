@@ -43,6 +43,19 @@ header {
     text-align: center;
 }
 
+.school-logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+
+    border: 5px solid #01487b;
+}
+    .school-logo:hover {
+        border: 5px solid #0095ff;
+        box-shadow: 0px 0px 25px 0px #0095ff;
+    }
+
 #app-name {
     font-size: 35px;
     padding: 0;
@@ -93,6 +106,8 @@ header {
         }
         #listed-school {
             text-align: left;
+            /* float: left; */
+            padding-top: 10px;
         }
 
 
