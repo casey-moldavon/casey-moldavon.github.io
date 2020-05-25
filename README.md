@@ -44,14 +44,14 @@ One thing i did do quite differently with this app was focusing on a Mobile frie
 ​
 ## Deployed Link
 ​
-* [See Live Site](https://casey-moldavon.github.io/current-portfolio/)
+* [See Live Site](https://www.caseymoldavon.com)
 ​
 ​
 ## Authors
 ​
 * **Casey Moldavon** 
 ​
-- [Link to Portfolio Site](https://casey-moldavon.github.io/updated-portfolio-2/)
+- [Link to Portfolio Site](https://www.caseymoldavon.com)
 - [Link to Github](https://github.com/casey-moldavon/updated-portfolio-2)
 - [Link to LinkedIn](https://www.linkedin.com/in/casey-moldavon-442a1761/)
 ​
